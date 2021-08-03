@@ -18,6 +18,7 @@ body {
 a {
   transition: all 0.3s ease;
   text-decoration: none;
+  color: whitesmoke;
 }
 
 ul {
@@ -25,6 +26,7 @@ ul {
 }
 a:hover {
   text-decoration: none;
+  color: lightskyblue;
 }
 button:focus {
   outline: none;
@@ -45,7 +47,8 @@ p {
   margin: 1.7rem 1rem;
 }
 
-.fab {
+.fab,
+.fas {
   color: whitesmoke;
 }
 
@@ -54,7 +57,11 @@ p {
 }
 
 .fa-github-square:hover {
-  color: rgba(0, 0, 0, 0.5);
+  color: grey;
+}
+
+.res:hover {
+  color: lightskyblue;
 }
 
 /* Navigation */
@@ -167,6 +174,13 @@ p {
   padding-right: 40px;
 }
 
+.tm-col-left-proj {
+  width: 50%;
+  height: 100%;
+  padding-left: 40px;
+  padding-right: 70px;
+}
+
 .tm-col-right {
   width: 50%;
   height: 100%;
@@ -178,6 +192,11 @@ p {
   max-width: 660px;
   margin-top: 50px;
   padding-right: 20px;
+}
+.tm-content-proj {
+  max-width: 660px;
+  margin-top: 50px;
+  padding-right: 50px;
 }
 
 .tm-about {
