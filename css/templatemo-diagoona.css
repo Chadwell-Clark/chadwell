@@ -266,9 +266,11 @@ hr {
 }
 .tm-service-img {
   margin-right: 25px;
+  max-width: 200px;
 }
 .tm-service-img-r {
   margin-left: 25px;
+  max-width: 200px;
 }
 
 /* Contact */
